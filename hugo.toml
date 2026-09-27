@@ -1,4 +1,27 @@
 baseURL = 'https://example.org/'
-locale = 'zh-CN'
+locale = 'zh-cn'
 title = 'My Blog'
 theme = 'PaperMod'
+
+[params]
+  author = "my"
+  description = "分享技术学习心得"
+
+# 顶部导航：name 是显示文案，weight 控制从左到右的顺序
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 3
