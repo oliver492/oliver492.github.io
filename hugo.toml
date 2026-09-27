@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+locale = 'zh-CN'
+title = 'My Blog'
+theme = 'PaperMod'
